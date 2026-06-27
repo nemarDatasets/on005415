@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005415",
+  "source": "openneuro",
+  "source_id": "ds005415",
+  "title": "Numbers",
+  "authors": {
+    "Alexander P. Rockhill": {},
+    "Ahmed M. Raslan": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005415.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.9",
+  "recording_modality": [
+    "anat",
+    "beh",
+    "ieeg"
+  ],
+  "datatypes": [
+    "anat",
+    "beh",
+    "ieeg"
+  ]
+}
