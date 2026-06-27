@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Numbers",
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients hospitalized on a monitoring unit, acquired during presentation of symbolic (Arabic numerals and spoken words) and non-symbolic (dot patterns and auditory beeps) numerical stimuli. The study investigates neural responses to numerical processing across different sensory modalities in patients with epilepsy.",
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients hospitalized on a monitoring unit at Oregon Health & Science University, acquired during presentation of symbolic (Arabic numerals and spoken words) and non-symbolic (dot patterns and auditory tones) numerical stimuli. The study investigates neural responses to numerical processing across different sensory modalities in patients with epilepsy. Note: Some anatomical derivatives and processing files from FreeSurfer surface reconstruction are included as part of the analysis pipeline.",
   "methods_description": "Stereoelectroencephalography (sEEG) recordings were collected from epilepsy patients at Oregon Health & Science University during auditory and visual presentation of symbolic (Arabic numerals and spoken numbers) and non-symbolic (dot patterns and beep sequences) numerical stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -32,32 +32,16 @@
       "term": "sensory processing"
     },
     {
-      "term": "Electrodes, Implanted",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004567"
-    },
-    {
-      "term": "Seizures",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
-    },
-    {
       "term": "number processing"
     },
     {
-      "term": "symbolic vs non-symbolic"
+      "term": "symbolic cognition"
     },
     {
-      "term": "cross-modal processing"
+      "term": "auditory stimuli"
     },
     {
-      "term": "numerical stimulus presentation"
-    },
-    {
-      "term": "Arabic numerals"
-    },
-    {
-      "term": "dot patterns"
+      "term": "visual stimuli"
     }
   ],
   "related_identifiers": [
@@ -73,6 +57,11 @@
     },
     {
       "identifier": "10.18112/openneuro.ds005415.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005415",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     }
