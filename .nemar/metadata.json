@@ -1,32 +1,126 @@
 {
   "version": "2.0",
-  "dataset_id": "on005415",
-  "source": "openneuro",
-  "source_id": "ds005415",
+  "pipeline_stage": "enriched",
   "title": "Numbers",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Alexander P. Rockhill": {},
     "Ahmed M. Raslan": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005415.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005415",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005415",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.9",
-  "recording_modality": [
+  "modalities": [
     "anat",
     "beh",
     "ieeg"
   ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "ieeg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".2209071630",
+    ".2211090853",
+    ".H",
+    ".K",
+    ".T1",
+    ".T2",
+    ".annot",
+    ".area",
+    ".avg_curv",
+    ".bak",
+    ".cmd",
+    ".crv",
+    ".ctab",
+    ".curv",
+    ".dat",
+    ".dat~",
+    ".defect_borders",
+    ".defect_chull",
+    ".defect_labels",
+    ".done",
+    ".edf",
+    ".env",
+    ".fif",
+    ".fslmat",
+    ".gz",
+    ".inflated",
+    ".info",
+    ".jacobian_white",
+    ".json",
+    ".label",
+    ".log",
+    ".lta",
+    ".m3z",
+    ".md",
+    ".mgh",
+    ".mgz",
+    ".mid",
+    ".mincost",
+    ".nofix",
+    ".old",
+    ".orig",
+    ".param",
+    ".pial",
+    ".pointset",
+    ".preaparc",
+    ".premesh",
+    ".reg",
+    ".seghead",
+    ".smoothwm",
+    ".sphere",
+    ".stats",
+    ".sulc",
+    ".sum",
+    ".surf",
+    ".thickness",
+    ".tri",
+    ".tsv",
+    ".txt",
+    ".volume",
+    ".white",
+    ".xfm",
+    ".yaml"
+  ],
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients hospitalized in a monitoring unit at Oregon Health & Science University. Participants were presented with auditory and visual number stimuli in both symbolic (Arabic numerals and spoken words) and non-symbolic (dot patterns and acoustic tones) formats. The recordings capture neural activity during cognitive processing of numerical information in a clinical population.",
+  "methods_description": "Data were collected using stereoelectroencephalography (sEEG) recordings from epilepsy patients during their stay in the epilepsy monitoring unit. Participants were presented with auditory and visual number stimuli in symbolic (Arabic numerals and spoken numbers) and non-symbolic (dots and beeps) modalities.",
+  "keywords": [
+    {
+      "term": "stereoelectroencephalography"
+    },
+    {
+      "term": "sEEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "numerical cognition"
+    },
+    {
+      "term": "intracranial recording"
+    },
+    {
+      "term": "number processing"
+    }
+  ],
+  "source_hash": "59f7d8f70b572fd49d4d0b7040104d8994e53ed31446855768650efb7fbed4ab"
 }
