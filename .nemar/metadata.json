@@ -2,18 +2,65 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Numbers",
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients hospitalized on a monitoring unit, acquired during presentation of symbolic (Arabic numerals and spoken words) and non-symbolic (dot patterns and auditory beeps) numerical stimuli. The study investigates neural responses to numerical processing across different sensory modalities in patients with epilepsy.",
+  "methods_description": "Stereoelectroencephalography (sEEG) recordings were collected from epilepsy patients at Oregon Health & Science University during auditory and visual presentation of symbolic (Arabic numerals and spoken numbers) and non-symbolic (dot patterns and beep sequences) numerical stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Alexander P. Rockhill": {},
     "Ahmed M. Raslan": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005415.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "stereoelectroencephalography"
     },
+    {
+      "term": "sEEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "numerical cognition"
+    },
+    {
+      "term": "intracranial recording"
+    },
+    {
+      "term": "sensory processing"
+    },
+    {
+      "term": "Electrodes, Implanted",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004567"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "number processing"
+    },
+    {
+      "term": "symbolic vs non-symbolic"
+    },
+    {
+      "term": "cross-modal processing"
+    },
+    {
+      "term": "numerical stimulus presentation"
+    },
+    {
+      "term": "Arabic numerals"
+    },
+    {
+      "term": "dot patterns"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005415",
       "identifier_type": "URL",
@@ -23,16 +70,21 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005415",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005415.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "beh",
     "ieeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "14.4 GB (4939 files)"
   ],
   "formats": [
     ".2209071630",
@@ -96,31 +148,8 @@
     ".volume",
     ".white",
     ".xfm",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients hospitalized in a monitoring unit at Oregon Health & Science University. Participants were presented with auditory and visual number stimuli in both symbolic (Arabic numerals and spoken words) and non-symbolic (dot patterns and acoustic tones) formats. The recordings capture neural activity during cognitive processing of numerical information in a clinical population.",
-  "methods_description": "Data were collected using stereoelectroencephalography (sEEG) recordings from epilepsy patients during their stay in the epilepsy monitoring unit. Participants were presented with auditory and visual number stimuli in symbolic (Arabic numerals and spoken numbers) and non-symbolic (dots and beeps) modalities.",
-  "keywords": [
-    {
-      "term": "stereoelectroencephalography"
-    },
-    {
-      "term": "sEEG"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "numerical cognition"
-    },
-    {
-      "term": "intracranial recording"
-    },
-    {
-      "term": "number processing"
-    }
-  ],
-  "source_hash": "59f7d8f70b572fd49d4d0b7040104d8994e53ed31446855768650efb7fbed4ab"
+  "source_hash": "040fea3ee611960b14d0acb69a1b2b9484f1f0d8fc1d0d31c62d3163e9af72a3"
 }
