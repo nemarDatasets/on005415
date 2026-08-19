@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Numbers",
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients hospitalized on a monitoring unit at Oregon Health & Science University, acquired during presentation of symbolic (Arabic numerals and spoken words) and non-symbolic (dot patterns and auditory tones) numerical stimuli. The study investigates neural responses to numerical processing across different sensory modalities in patients with epilepsy. Note: Some anatomical derivatives and processing files from FreeSurfer surface reconstruction are included as part of the analysis pipeline.",
-  "methods_description": "Stereoelectroencephalography (sEEG) recordings were collected from epilepsy patients at Oregon Health & Science University during auditory and visual presentation of symbolic (Arabic numerals and spoken numbers) and non-symbolic (dot patterns and beep sequences) numerical stimuli.",
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from epilepsy patients undergoing monitoring for seizure activity at Oregon Health & Science University. During monitoring, patients were presented with auditory and visual numerical stimuli that were either symbolic (Arabic numerals and spoken numbers) or non-symbolic (dot arrays and beeps), enabling investigation of numerical cognition and its neural representations in intracranial recordings.",
+  "methods_description": "Stereoelectroencephalography (sEEG) recordings were collected from epilepsy patients in the epilepsy monitoring unit while they were shown auditory and visual numerical stimuli, symbolic (Arabic numerals and spoken numbers) or non-symbolic (dot arrays and beeps).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,10 +12,7 @@
   },
   "keywords": [
     {
-      "term": "stereoelectroencephalography"
-    },
-    {
-      "term": "sEEG"
+      "term": "Stereoelectroencephalography"
     },
     {
       "term": "Epilepsy",
@@ -26,16 +23,7 @@
       "term": "numerical cognition"
     },
     {
-      "term": "intracranial recording"
-    },
-    {
-      "term": "sensory processing"
-    },
-    {
-      "term": "number processing"
-    },
-    {
-      "term": "symbolic cognition"
+      "term": "intracranial recordings"
     },
     {
       "term": "auditory stimuli"
@@ -51,11 +39,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005415",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005415.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
@@ -64,6 +47,11 @@
       "identifier": "10.18112/openneuro.ds005415",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005415",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "Structural MRI Dataset",
